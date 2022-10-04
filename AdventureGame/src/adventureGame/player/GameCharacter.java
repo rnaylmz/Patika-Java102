@@ -5,7 +5,9 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class gameCharacter {
+public abstract class GameCharacter {
+    private String characterName;
+    private int characterId;
     private int damage;
     private int health;
     private int money;

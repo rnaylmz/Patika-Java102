@@ -16,6 +16,7 @@ public class Game {
         System.out.println("Enter your nickname : ");
         String playerName = input.nextLine();
         Player player = new Player(playerName);
-        System.out.println(player.getName() + " Welcome to our adventure world ! ");
+        System.out.println(player.getName() + " welcome to our adventure world ! ");
+        player.selectCharacter();
     }
 }
