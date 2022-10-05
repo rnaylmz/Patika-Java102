@@ -1,18 +1,20 @@
 package adventureGame.location;
 
 import adventureGame.player.Player;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 
+@Data
+@AllArgsConstructor
 public abstract class Location {
 
-    Player player;
-    String name;
-
-    public void Location (){
-
+    private Player player;
+    private String name;
+    public Location(Player player) {
+        this.player = player;
     }
 
-    private boolean onLocation(){
-        return true;
+    public Location(){
     }
-
+    public abstract boolean onLocation();
 }

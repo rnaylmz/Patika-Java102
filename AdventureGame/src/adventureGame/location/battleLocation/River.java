@@ -1,9 +1,14 @@
 package adventureGame.location.battleLocation;
 
 import adventureGame.location.battleLocation.monster.Monster;
+import adventureGame.player.Player;
+import lombok.Data;
 
+@Data
 public class River extends BattleLocation{
-    public River(Monster monster) {
-        super(monster);
+
+    @Override
+    public boolean onLocation() {
+        return true;
     }
 }

@@ -40,33 +40,33 @@
 
 ## LOCATIONS
 
-* Safe House  
+* Safe House  (1)
   * Feature : Health is regenerated.
   
 
-* Cave
+* Cave (3)
   * Monster : Zombie (1-3)
   * Feature : Attack + Loot
   * Object : Food
 
 
 
-* Forest
+* Forest (4)
   * Monster : Vampire (1-3)
   * Feature : Attack + Loot
   * Object : Firewood
 
 
 
-* River
+* River (5)
   * Monster : Bear (1-3)
   * Feature : Attack + Loot
   * Object : Water
 
 
 
-* Store
-  * Feature : Buying backup tools
+* Store (2)
+  * Feature : Buying helpful tools
   * Weapon : Gun, Sword, Rifle
   * Armour : Basic, Medium, Heavy
 

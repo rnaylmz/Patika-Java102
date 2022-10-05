@@ -18,5 +18,6 @@ public class Game {
         Player player = new Player(playerName);
         System.out.println(player.getName() + " welcome to our adventure world ! ");
         player.selectCharacter();
+        player.selectLocation();
     }
 }
